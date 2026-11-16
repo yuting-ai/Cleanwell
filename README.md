@@ -19,7 +19,7 @@
 - **已卸载 App 的残留**：按厂商分组，默认不勾选，由你逐个确认
 - **磁盘占用**：方块图逐层查看每个文件夹占了多少空间
 - **定时清理**：每天或每周在后台清理安全的项目
-- **系统级清理（可选）**：安装特权助手后清理 `/Library` 里第三方软件的缓存和日志，只认严格的白名单，从不碰 Apple 的文件
+- **系统级清理（可选）**：安装特权助手后清理 `/Library` 里第三方软件的缓存和日志、系统已经压缩归档的旧日志和崩溃报告；只认严格的白名单，不碰 Apple 的缓存和系统正在写的日志
 - 中文 / English 界面，自动更新
 
 ## 安装
@@ -43,7 +43,7 @@
 - **Leftovers of removed apps** — grouped by vendor and unchecked until you confirm
 - **Disk map** — a treemap to drill into what takes up space
 - **Scheduled cleaning** — clean safe items daily or weekly in the background
-- **System-level cleaning (optional)** — a privileged helper cleans third-party caches and logs in `/Library`, following a strict allow-list and never touching Apple's files
+- **System-level cleaning (optional)** — a privileged helper cleans third-party caches and logs in `/Library`, plus old compressed system logs and crash reports, following a strict allow-list and leaving Apple's caches and active system logs alone
 - English / 中文 interface, automatic updates
 
 ## Install
